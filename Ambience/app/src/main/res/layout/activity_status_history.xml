@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StatusHistory">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+        <TextView
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="ID"
+            android:background="@drawable/shape"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Status"
+            android:background="@drawable/shape"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Temp1"
+            android:background="@drawable/shape"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Hum1"
+            android:background="@drawable/shape"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Temp2"
+            android:background="@drawable/shape"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="hum2"
+            android:background="@drawable/shape"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Temp3"
+            android:background="@drawable/shape"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Hum3"
+            android:background="@drawable/shape"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="FTemp"
+            android:background="@drawable/shape"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="FHumidity"
+            android:background="@drawable/shape"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="vc_new"
+            android:background="@drawable/shape"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Door State"
+            android:background="@drawable/shape"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Power"
+            android:background="@drawable/shape"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+    </TableRow>
+    </TableLayout>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+</HorizontalScrollView>
